@@ -1,0 +1,16 @@
+.parent-gambar-hp td img {
+  width: 90px;
+  object-fit: cover;
+}
+.table-primary {
+  --bs-table-color: #fff;
+  --bs-table-bg: #508be4;
+}
+.table > :not(caption) > * > * {
+  padding: 0.8rem 0.8rem;
+}
+
+.parent-gambar-hp td:first-child {
+  visibility: hidden;
+  display: none;
+}
